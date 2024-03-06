@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sprencia_Api.Entities\Sprencia_Api.Entities.csproj" />
+    <ProjectReference Include="..\Sprencia_Api.Repositories\Sprencia_Api.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
